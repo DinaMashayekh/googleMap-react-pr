@@ -1,0 +1,47 @@
+/* ConfigForm.scss */
+.config-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center; /* Center the content horizontally */
+    width: 400px;
+  }
+  
+  .form-container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center; /* Center the content vertically */
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Add some space between the inputs and the button */
+  }
+  
+  /* Style the "Save" button with a green background */
+  button {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change button background on hover */
+  button:hover {
+    
+    background-color: darkgreen;
+  }
+  .blur {
+    filter: blur(4px); /* Adjust the blur intensity as needed */
+  }
+  .form-group {
+    margin-bottom: 15px; /* Adjust the spacing between label and input */
+  }

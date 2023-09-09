@@ -1,0 +1,40 @@
+/* LocationPermission.scss */
+.location-prompt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Modern shadow */
+  
+    h2 {
+      margin-top: 60px;
+    }
+  
+    .button-container {
+      display: flex;
+      justify-content: center; /* Center buttons horizontally */
+      margin-top: 50px; /* Add margin between form content and buttons */
+    }
+  
+    button {
+        width:100px;
+      background-color: #007f00; /* Green button color */
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 0 10px; /* Add margin between buttons */
+    }
+  
+    button:hover {
+      background-color: #005f00;
+    }
+  }
+  

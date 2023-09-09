@@ -1,0 +1,66 @@
+/* App.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #8FBC8F; /* Green background color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  background-color: #ffffff; /* White background color */
+  padding: 20px;
+  margin: 20px;
+}
+
+.button {
+  background-color: #8FBC8F; /* arker green color for buttons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #005f00; /* Darker green color on hover */
+}
+
+
+.location-prompt {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.location-prompt h2 {
+  margin-top: 0;
+}
+
+.location-prompt button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007f00;
+  color: #fff;
+}
+
+.location-prompt button:hover {
+  background-color: #005f00;
+}
